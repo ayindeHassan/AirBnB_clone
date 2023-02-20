@@ -56,7 +56,7 @@
     position: absolute;
     width: inherit;
     top: 100%;
-    /* z-index: 1; */
+    z-index: 1;
 }
 .filters .popover h2 {
     font-size: 20px;
@@ -72,10 +72,10 @@
     padding: 2px 0px;
     padding-left: 25px;
 }
-/* .filters .popover ul {
+.filters .popover ul {
     list-style: none;
     padding-left: 0;
-} */
+}
   
 .locations:hover .popover {
     display: inline-block;
